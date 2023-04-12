@@ -7,7 +7,7 @@
 > * agents based on [Cemka Raoguz](https://github.com/cemkaraoguz/reinforcement-learning-an-introduction-second-edition/tree/main/IRL)
 
 
-## Documentation
+## internal Documentation
 
 * [EV3 Robot Documatation](docs/EV3.md)
 * ...
@@ -36,8 +36,8 @@
 ## RUNs on pip-packages
 Package         Version
 --------------- -------
-gym             0.24.1
-gym-notices     0.0.7
-numpy           1.23.1
-pip             22.0.4
-pygame          2.1.2
+gym             0.24.1  
+gym-notices     0.0.7  
+numpy           1.23.1  
+pip             22.0.4  
+pygame          2.1.2  
