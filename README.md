@@ -19,7 +19,7 @@
 * ...
 * > If you are still missing more instructions, then let us know and just send us your instructions and we will include it! :)
 
-### useful links
+### useful external links
 
 * [GitHub: ev3dev-browser](https://github.com/ev3dev/vscode-ev3dev-browser)
 * [Visual Studio Code - Marketplace: ev3dev-browser](https://marketplace.visualstudio.com/items?itemName=ev3dev.ev3dev-browser)
