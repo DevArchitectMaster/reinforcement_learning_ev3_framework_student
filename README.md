@@ -13,7 +13,7 @@
 * ...
 * [LEGO](docs/lego/)
 
-### misc documentation
+### misc internal documentation
 
 * [AnyDesk on Ubuntu 22.04 LTS](docs/misc/AnyDesk%20on%20Ubuntu%2022.04%20LTS.md)
 * ...
