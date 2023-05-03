@@ -9,7 +9,7 @@ import logging
 import json
 
 # only for lecturer otherwise comment out the following line
-os.chdir(os.getcwd() + ".\_student_version")
+#os.chdir(os.getcwd() + ".\student")
 
 def runExperiment_NStep(agent_nEpisodes, env, agent, observation_space_num):
   """Train and test the agent in the given Environment for the given Episodes.
