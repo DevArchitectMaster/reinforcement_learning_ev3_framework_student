@@ -9,7 +9,7 @@
 
 ## internal Documentation
 
-* [EV3 Robot Documatation](docs/EV3.md)
+* [EV3 Robot Documentation](docs/EV3.md)
 * ...
 * [LEGO](docs/lego/)
 
