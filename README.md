@@ -15,7 +15,14 @@
 
 ### misc internal documentation
 
-* [AnyDesk on Ubuntu 22.04 LTS](docs/misc/AnyDesk%20on%20Ubuntu%2022.04%20LTS.md)
+* __virtual machine__
+  > The VM [```xubuntu 22.04```] provided to you is available within the university network via ```ssh``` and outside via ```vpn + ssh```. _You will receive the credentials from your lecturer._
+
+  > It is recommended that you set up a VNC server, such as ```gnome-remote-desktop``` or ```tigervnc```.
+
+  > The following instructions can help you set up and use your vm.
+
+  * [AnyDesk on Ubuntu 22.04 LTS](docs/misc/AnyDesk%20on%20Ubuntu%2022.04%20LTS.md)
 * ...
 * > If you are still missing more instructions, then let us know and just send us your instructions and we will include it! :)
 
