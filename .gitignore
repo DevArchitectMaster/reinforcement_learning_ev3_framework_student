@@ -1,1 +1,5 @@
+# exclude byte-compiled files
 __pycache__
+
+# exclude model files
+/model_storage/*/

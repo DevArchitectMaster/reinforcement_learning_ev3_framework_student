@@ -11,3 +11,4 @@ rmdir /s /q "__pycache__"
 echo .
 
 pause
+exit
