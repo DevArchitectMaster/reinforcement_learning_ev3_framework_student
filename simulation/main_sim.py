@@ -13,7 +13,10 @@ from sim_world.envs.car_0.ev3_sim_car import SimCar as Car
 from sim_world.envs.pygame_0.ev3_sim_pygame_2d_V2 import PyGame2D as Simulation
 
 # only for lecturer otherwise comment out the following line
-#os.chdir(os.getcwd() + ".\student\simulation")
+#path_to_main = ".\student\simulation"
+path_to_main = ".\simulation"
+
+os.chdir(os.getcwd() + path_to_main)
 
 def load_policy(policy_as_json):
     """load the policy json file
