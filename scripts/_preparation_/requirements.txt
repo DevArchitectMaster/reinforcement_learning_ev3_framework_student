@@ -1,0 +1,8 @@
+python-ev3dev==1.2.0
+python-ev3dev2==2.1.0.post1
+numpy==1.23.1
+jsonschema==4.6.0
+pygame==2.1.2
+gym==0.25.0
+gym-notices==0.0.7
+matplotlib==3.5.2
