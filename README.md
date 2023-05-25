@@ -9,9 +9,11 @@
 
 ## internal Documentation
 
+* [Small introduction tutorial for a better start](docs/tutorial.md)
 * [EV3 Robot Documentation](docs/EV3.md)
 * ...
 * [LEGO](docs/lego/)
+> If you are still missing more functionalities in the robot or in the simulation, just let us know and send us your issue (_preferably directly with a concrete implementation as a feature request in Github_) and we will take care of it! :)
 
 ### misc internal documentation
 
@@ -24,7 +26,7 @@
 
   * [AnyDesk on Ubuntu 22.04 LTS](docs/misc/AnyDesk%20on%20Ubuntu%2022.04%20LTS.md)
 * ...
-* > If you are still missing more instructions, then let us know and just send us your instructions and we will include it! :)
+> If you are still missing more instructions, then let us know and just send us your instructions and we will include it! :)
 
 ### useful external links
 
@@ -43,8 +45,8 @@
 ## RUNs on pip-packages
 Package         Version
 --------------- -------
-gym             0.24.1  
-gym-notices     0.0.7  
-numpy           1.23.1  
-pip             22.0.4  
-pygame          2.1.2  
+gym             0.24.1
+gym-notices     0.0.7
+numpy           1.23.1
+pip             22.0.4
+pygame          2.1.2
