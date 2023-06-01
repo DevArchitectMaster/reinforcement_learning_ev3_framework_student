@@ -64,25 +64,25 @@
       },
       "__main__": {
           "handlers": ["stderr", "console", "file"],
-          "level": "DEBUG",
+          "level": "INFO",
           "filters": [],
           "propagate": "False"
       },
       "sim_world.envs.car_0.ev3_sim_car.SimCar": {
         "handlers": ["stderr", "console", "file"],
-        "level": "DEBUG",
+        "level": "INFO",
         "filters": [],
         "propagate": "False"
       },
       "sim_world.envs.pygame_0.ev3_sim_pygame_2d_V2.PyGame2D": {
         "handlers": ["stderr", "console", "file"],
-        "level": "DEBUG",
+        "level": "INFO",
         "filters": [],
         "propagate": "False"
       },
       "sim_world.envs.simulation_env.CustomEnv": {
         "handlers": ["stderr", "console", "file"],
-        "level": "DEBUG",
+        "level": "INFO",
         "filters": [],
         "propagate": "False"
       }
