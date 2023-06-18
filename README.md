@@ -9,6 +9,8 @@
 
 ## internal Documentation
 
+* [Task](docs/task.md)
+* [Submission at the end of term](docs/submission.md)
 * [Small introduction tutorial for a better start](docs/tutorial.md)
 * [EV3 Robot Documentation](docs/EV3.md)
 * ...
