@@ -12,6 +12,7 @@ from ev3dev2.sensor.lego import SoundSensor
 from ev3dev2.sensor.lego import LightSensor
 
 import logging
+import math
 
 
 
@@ -35,31 +36,48 @@ class MotorTank:
             action_params (dict):  {'speed':int} or {'angle':int}
         """
         logging.info('MOTOR TANK DRIVE , %s', action_params)
-        #self.tank.on_for_rotations(**action_params)
+        drive_degrees(action_params)
+        #drive_rotations(action_params)
+        
 
-        __speed = 20
-        __speed_negativ = __speed * (-1)
-        # radius = 2,75 | 5/2 => perimeter = 17,27
-        __perimeter = 17.27
-        for __param in action_params.items():
-            __action_key = __param[0]
-            __action_value = __param[1]
+        def drive_degrees(self, action_params):
+            """drive the tank given the params in dict
 
-            if(__action_key == 'speed'):
-                __one_cm = 360 / __perimeter
-                __distance = __action_value * __one_cm
-                if(__action_value > 0):
+            Args:
+                action_params (dict):  {'speed':int} or {'angle':int}
+            """
+            logging.info('MOTOR TANK DRIVE , %s', action_params)
+
+            __speed = 20
+            __speed_negativ = __speed * (-1)
+            # radius = 2,75 | 5/2 => perimeter = 17,27
+            __perimeter = 17.27
+            for [__action_key, __action_value] in action_params.items():
+                if(__action_key == 'speed'):
+                    __one_cm = 360 / __perimeter
+                    __distance = __action_value * __one_cm
                     self.tank.on_for_degrees(__speed, __speed, __distance)
-                elif(__action_value < 0):
-                    self.tank.on_for_degrees(__speed_negativ, __speed_negativ, __distance)
-            elif(__action_key == 'angle'):
-                __one_degree = __perimeter / 90
-                __angle = __action_value * __one_degree
+                elif(__action_key == 'angle'):
+                    __radian_measure = __action_value * 2
+                    self.tank.on_for_degrees(__speed, __speed_negativ, __radian_measure)
 
-                if(__action_value > 0):
-                    self.tank.on_for_degrees(__speed_negativ, __speed, __angle)
-                elif(__action_value < 0):
-                    self.tank.on_for_degrees(__speed, __speed_negativ, __angle)
+        def drive_rotations(self, action_params):
+            """drive the tank given the params in dict
+            Args:
+                action_params (dict):  {'speed':int} or {'angle':int}
+            """
+            logging.info('MOTOR TANK DRIVE , %s', action_params)
+            __speed = 20
+            __speed_negativ = __speed * (-1)
+            # radius = 2,75 | 5/2 => perimeter = 17,27
+            __perimeter = 17.27
+            for __action_key, __action_value in action_params.items():
+                if(__action_key == 'speed'):
+                    __distance = __action_value / __perimeter
+                    self.tank.on_for_rotations(__speed, __speed, __distance)
+                elif(__action_key == 'angle'):
+                    __rotations = (__action_value * 2) / 360
+                    self.tank.on_for_rotations(__speed, __speed_negativ, __rotations)
 
 
 
