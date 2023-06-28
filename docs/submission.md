@@ -74,6 +74,8 @@
   * _Was könnte man noch machen, wenn Sie mehr Zeit hätten?_
   * _Was machen andere noch, was Sie nicht geschafft haben?_
 
+> __Bitte denken Sie bei der Abgabe noch mit dran, dass Sie ein weiteres Dokument mit abgeben, aus dem hervorgeht, wer welches Kapitel der schriftlichen Ausarbeitung verfasst hat!__
+
 <sup>1</sup> _mit korrekten Quellenangaben_
 
 
