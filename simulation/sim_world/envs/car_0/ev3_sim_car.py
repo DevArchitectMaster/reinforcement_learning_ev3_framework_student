@@ -9,21 +9,21 @@ class _BlueprintDistanceMeasure(): ### Additional function only for the simulati
     def __init__(self, car, radar_beams, radar_detect_angle, beam_degree, max_len, env_map):
         #TODO remove dict
         __positions_dict = {
-            'north' : 0,
-            'north-east' : 45,
-            'east' : 90,
-            'south-east' : 135,
-            'south' : 180,
-            'south-west' : 225,
-            'west' : 270,
-            'north-west' : 315
+            'north' : -0,
+            'north-east' : -45,
+            'east' : -90,
+            'south-east' : -135,
+            'south' : -180,
+            'south-west' : -225,
+            'west' : -270,
+            'north-west' : -315
         }
         self.radar_beams = radar_beams
         self.radar_detect_angle = radar_detect_angle
         self.degree = __positions_dict[beam_degree]
         self.max_len=max_len * car.resize_factor
         self.car = car
-        self.env_map = env_map   
+        self.env_map = env_map
 
     def check_beam(self, degree):
         """get the length of a single degree
