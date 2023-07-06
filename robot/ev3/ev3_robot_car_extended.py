@@ -35,11 +35,6 @@ class MotorTank:
         Args:
             action_params (dict):  {'speed':int} or {'angle':int}
         """
-        logging.info('MOTOR TANK DRIVE , %s', action_params)
-        drive_degrees(action_params)
-        #drive_rotations(action_params)
-        
-
         def drive_degrees(self, action_params):
             """drive the tank given the params in dict
 
@@ -61,7 +56,7 @@ class MotorTank:
                     __radian_measure = __action_value * 2
                     self.tank.on_for_degrees(__speed, __speed_negativ, __radian_measure)
 
-        def drive_rotations(self, action_params):
+        def drive_rotations(action_params):
             """drive the tank given the params in dict
             Args:
                 action_params (dict):  {'speed':int} or {'angle':int}
@@ -78,6 +73,11 @@ class MotorTank:
                 elif(__action_key == 'angle'):
                     __rotations = (__action_value * 2) / 360
                     self.tank.on_for_rotations(__speed, __speed_negativ, __rotations)
+
+
+        logging.info('MOTOR TANK DRIVE , %s', action_params)
+        drive_degrees(action_params)
+        #drive_rotations(action_params)
 
 
 
