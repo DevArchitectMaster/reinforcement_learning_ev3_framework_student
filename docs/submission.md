@@ -9,18 +9,24 @@
 
 ## Abgabe
 
-> * **Projekt bzw. Prototyp**  
+> * **Entwicklung und Umsetzung des Projektes bzw. Prototyp**  
     \> Programmcode als gepackte ZIP-Datei
 
-> * **Schriftliche Dokumentation**<sup>†</sup>  
+> * **schriftliche wissenschaftliche Ausarbeitung & Reflexion**<sup>†</sup>  
     \> Umfang 80.000 - 90.000 Zeichen (mit Leerzeichen) in [IEEE-Vorlagen-Format](http://www.ieee.org/conferences/publishing/templates.html)  
     \> RL-Inhalte, UML-Diagramme, Projektplan & -ablauf, Reflexion  
 
 > * **Demonstrationsvideo**
 
-> * **Abschlusspräsentation** (als PDF-Datei)
+> * **Abschlusspräsentation und Vorstellung des Prototypen** (als PDF-Datei)
+> als PDF-Datei
 
-### <sup>†</sup>schriftliche Ausarbeitung
+          - Inhalte:
+            - Wie haben Sie Ihren Reward gestaltet?
+            - Welche Agents haben Sie ausprobiert und verwendet? Warum?
+            - Wie verarbeiten Sie Ihre Iputs vor (Unterschied Simulation und reale Welt) und wie gestalten Sie ihre Outputs?
+
+### <sup>†</sup>schriftliche wissenschaftliche Ausarbeitung & Reflexion
 
 * **Einleitung**
   * Motivation
