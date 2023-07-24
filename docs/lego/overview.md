@@ -11,7 +11,10 @@
 * [EV3 Car Manual](lego/ev3-ultrasonic-sensor-driving-base.pdf)   
   > [online](https://education.lego.com/v3/assets/blt293eea581807678a/blte04fb7bf4f716f3d/5f8801e3bf5ab07ee90076c9/ev3-ultrasonic-sensor-driving-base.pdf)   
 
-  > [more online manuals](https://education.lego.com/en-us/product-resources/mindstorms-ev3/downloads/building-instructions)
+* [LEGO MINDSTORMS EV3 Hardware Developer Kit](lego/lego-mindstorms-ev3-hardware-developer-kit/LEGO%20MINDSTORMS%20EV3%20Hardware%20Developer%20Kit.pdf)   
+  > [online](https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt471320cb14ed0291/5f880386631d5a2165df4144/lego-mindstorms-ev3-hardware-developer-kit.zip)   
+
+> [more online manuals](https://assets.education.lego.com/de-de/product-resources/mindstorms-ev3/materialien-f%C3%BCr-lehrkr%C3%A4fte/mit-python-programmieren)
 
 * ...   
 
