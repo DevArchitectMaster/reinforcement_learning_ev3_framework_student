@@ -30,8 +30,8 @@
 
 * **Einleitung**
   * Motivation
-  * Forschungsfrage(n)
   * Ziel
+  * Forschungsfrage(n)
   * Abgrenzung verwandte Arbeiten (_Related Work_)
   * Überblick
 
