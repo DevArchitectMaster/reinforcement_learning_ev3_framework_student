@@ -15,6 +15,11 @@
 * [EV3 Robot Documentation](docs/EV3.md)
 * ...
 ---
+
+## externl Documentation
+
+* [🧩 LEGO Manuals](docs/lego/overview.md)
+
 **final Race**
 > * [⚠️ Rule Set ⚠️](final_race/rule_set/readme.md)   
 > * [🛣️ Map Maze 🏞](final_race/map_maze/overview.md)   
