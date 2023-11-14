@@ -21,8 +21,8 @@
 * [🧩 LEGO Manuals](docs/lego/overview.md)
 
 **final Race**
-> * [⚠️ Rule Set ⚠️](final_race/rule_set/readme.md)   
-> * [🛣️ Map Maze 🏞](final_race/map_maze/overview.md)   
+> * [⚠️ Rule Set ⚠️](docs/final_race/rule_set/readme.md)   
+> * [🛣️ Map Maze 🏞](docs/final_race/map_maze/overview.md)   
 ---
 * [LEGO](docs/lego/)
 > If you are still missing more functionalities in the robot or in the simulation, just let us know and send us your issue (_preferably directly with a concrete implementation as a feature request in Github_) and we will take care of it! :)

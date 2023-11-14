@@ -269,7 +269,7 @@ class SimCar:
             obs = int(obs)
             obs_evaluated.append(obs)
         logger.debug('OBSERVATION EVALUATED \'%s\'', str(obs_evaluated))
-        self.observation =  tuple(obs_evaluated)
+        self.observation = tuple(obs_evaluated)
 
     def action(self, action):
         """execute the given action
