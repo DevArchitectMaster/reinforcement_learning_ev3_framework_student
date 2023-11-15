@@ -15,6 +15,8 @@
 * [EV3 Robot Documentation](docs/EV3.md)
 * ...
 ---
+* [🚧 Equipment Overview 🤖](docs/equipment/overview.md)   
+---
 
 ## externl Documentation
 
