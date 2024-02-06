@@ -3,3 +3,13 @@ __pycache__
 
 # exclude model files
 /model_storage/*/
+
+# exclude python venv data
+/pyvenv.cfg
+
+/scripts/activate
+/scripts/activate.bat
+/scripts/Activate.ps1
+/scripts/deactivate.bat
+/scripts/python.exe
+/scripts/pythonw.exe
