@@ -10,8 +10,8 @@
 
 ## User & Password
 
-> robot   
-> maker   
+> \> login as: ```robot```   
+> \> password: ```maker```   
 
 > [Connecting to ev3dev Using SSH](https://www.ev3dev.org/docs/tutorials/connecting-to-ev3dev-with-ssh/)
 

@@ -5,7 +5,7 @@
 
 ### **official** LEGO Manuals
 
-* [LEGO Mindstorms EV3 USer Guide](lego/LMSUser_Guide_LEGO_MINDSTORMS_EV3_11_Tablet_ENUS.pdf)   
+* [LEGO Mindstorms EV3 User Guide](lego/LMSUser_Guide_LEGO_MINDSTORMS_EV3_11_Tablet_ENUS.pdf)   
   > [online](https://www.lego.com/cdn/cs/set/assets/bltbef4d6ce0f40363c/LMSUser_Guide_LEGO_MINDSTORMS_EV3_11_Tablet_ENUS.pdf)
 
 * [EV3 Car Manual](lego/ev3-ultrasonic-sensor-driving-base.pdf)   
