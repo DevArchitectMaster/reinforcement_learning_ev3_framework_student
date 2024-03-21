@@ -30,7 +30,7 @@ class MotorTank:
         Args:
             action_params (dict):  {'speed':int} or {'angle':int}
         """
-        def drive_degrees(self, action_params):
+        def drive_degrees(action_params):
             """drive the tank given the params in dict
 
             Args:
