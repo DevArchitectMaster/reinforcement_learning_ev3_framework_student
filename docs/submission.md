@@ -18,8 +18,8 @@
 
 > * **Demonstrationsvideo**
 
-> * **Abschlusspräsentation und Vorstellung des Prototypen** (als PDF-Datei)
-> als PDF-Datei
+> * **Abschlusspräsentation und Vorstellung des Prototypen**  
+\> als PDF-Datei
 
           - Inhalte:
             - Wie haben Sie Ihren Reward gestaltet?
