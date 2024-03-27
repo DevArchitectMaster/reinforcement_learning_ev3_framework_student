@@ -13,7 +13,8 @@
     \> Programmcode als gepackte ZIP-Datei
 
 > * **schriftliche wissenschaftliche Ausarbeitung & Reflexion**<sup>†</sup>  
-    \> Umfang 80.000 - 90.000 Zeichen (mit Leerzeichen) in [IEEE-Vorlagen-Format](http://www.ieee.org/conferences/publishing/templates.html)  
+    \> Umfang 40.000 - 45.000 Zeichen (mit Leerzeichen) pro Person in [IEEE-Vorlagen-Format](http://www.ieee.org/conferences/publishing/templates.html)  
+       => _80.000 - 90.000 Zeichen (mit Leerzeichen) gemeinsam als Gruppe_   
     \> RL-Inhalte, UML-Diagramme, Projektplan & -ablauf, Reflexion  
 
 > * **Demonstrationsvideo**
