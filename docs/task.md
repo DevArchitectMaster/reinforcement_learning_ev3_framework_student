@@ -13,4 +13,4 @@ Ihr Roboter schafft es in einem generischen Labyrinth in begrenzter Zeit ins Zie
 
 ### Aufgabe
 * Bilden Sie hierzu selbstorganisierte Teams (2er Gruppen)
-* Setzen Sie die Aufgabenstellung mit der Programmiersprache Python und den LEGO Mindstorms EV3 Bauteilen um und verwenden Sie einen in der Vorlesung besprochenen Algorithmus
+* Setzen Sie die Aufgabenstellung mit der Programmiersprache Python und den LEGO<sup>&reg;</sup> Mindstorms EV3<sup>&trade;</sup> Bauteilen um und verwenden Sie einen in der Vorlesung besprochenen Algorithmus

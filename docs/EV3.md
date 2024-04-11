@@ -36,14 +36,15 @@
 
 > sudo pip3 install jsonschema   
 
-> C:\Users..Python\reinforcement_learning_pygame>scp -r robot robot@192.168.179.XX:./   
+> C:\Users\<...>\Python\reinforcement_learning>scp -r robot   
+> \> robot@192.168.179.XX: ./   
 
 > chmod +x filename.py   
 
 > python3 filename.py   
 
 > micropython filename.py   
-> [MicroPython Documentation](https://docs.micropython.org/en/latest/index.html)   
+> \> [MicroPython Documentation](https://docs.micropython.org/en/latest/index.html)   
 
 shutdown   
 

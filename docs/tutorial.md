@@ -51,7 +51,7 @@
 
 ---
 
-## Reinforcement Learning Agenten (Alogrithmen)
+## Reinforcement Learning Agenten (Algorithmen)
 
 ### wichtige Dateien
 

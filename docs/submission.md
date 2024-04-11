@@ -25,7 +25,7 @@
           - Inhalte:
             - Wie haben Sie Ihren Reward gestaltet?
             - Welche Agents haben Sie ausprobiert und verwendet? Warum?
-            - Wie verarbeiten Sie Ihre Iputs vor (Unterschied Simulation und reale Welt) und wie gestalten Sie ihre Outputs?
+            - Wie verarbeiten Sie Ihre Inputs vor (Unterschied Simulation und reale Welt) und wie gestalten Sie ihre Outputs?
 
 ### <sup>†</sup>schriftliche wissenschaftliche Ausarbeitung & Reflexion
 
@@ -43,7 +43,7 @@
   * Aktoren<sup>1</sup>
   * Simulation der realen Welt für Trainingszwecke
     > Wie kann die reale Welt simuliert werden?  
-    > Pro, Cons & Limitierungen<sup>1</sup>
+    > Pro, Con & Limitierungen<sup>1</sup>
 
 * **methodisches Vorgehen**
   * Observations<sup>1</sup> und deren Datenverarbeitung (_mit UML-Zustandsdiagramm_)
@@ -53,7 +53,7 @@
   * Reward(-Function)<sup>1</sup>  (_mit UML-Klassen-, Sequenz- und Aktivitätsdiagramm_)
     > Ansätze: Was, warum und wie?
   * Trainingskonzept<sup>1</sup>
-    > Begründung der Wahl des Konzeptes und des Enviroments
+    > Begründung der Wahl des Konzeptes und des Environments
   * Transfer (_Anpassungen der Datenverarbeitung_)<sup>1</sup>
     > Aufgetretene Probleme?  
     > Angewandte Lösungen?
@@ -61,7 +61,7 @@
 
 * **Experimente**
   * Trainingsverlauf und dessen Auswertung
-  * Bewertung von Agents (_Simulation & Echtwelt_)
+  * Bewertung von Agents (_Simulation & reale Welt_)
     > Welche sind gut bzw. besser als andere?
   * Diskussion (_Interpretation & Begründung_) der vorliegenden Ergebnisse
   * nächsten Schritte und deren Hypothesen
@@ -91,7 +91,7 @@
 > * Welche Kombination aus  
 >   * **Agent**,  
 >   * **Hyperparametern** und  
->   * **Enviroment**  
+>   * **Environment**  
 > 
 >   liefert eine gute Performance?
 
@@ -105,7 +105,7 @@
 ### Simulations - Stellschrauben
 
 * Wie kann die Performance von Agents in unterschiedlichen Simulationen bewertet werden?
-* Enviroment
+* Environment
   * Wie kann die Reward-Function (_sim_world>envs>pygame_0>ev3_sim_pygame_2d_V2.py: evaluate()_) gestaltet werden, sodass der Agent das gewünschte Verhalten lernt?
 * Agent
   * Feature Selection => Merkmalsauswahl => Irrelevante & Redundante Merkmale
