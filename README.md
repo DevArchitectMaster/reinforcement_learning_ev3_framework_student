@@ -18,7 +18,7 @@
 * [🚧 Equipment Overview 🤖](docs/equipment/overview.md)   
 ---
 
-## externl Documentation
+## external Documentation
 
 * [🧩 LEGO Manuals](docs/lego/overview.md)
 
