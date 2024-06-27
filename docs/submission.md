@@ -14,7 +14,7 @@
 
 > * **schriftliche wissenschaftliche Ausarbeitung & Reflexion**<sup>†</sup>  
     \> Umfang 40.000 - 45.000 Zeichen (mit Leerzeichen) pro Person in [IEEE-Vorlagen-Format](http://www.ieee.org/conferences/publishing/templates.html)  
-       => _80.000 - 90.000 Zeichen (mit Leerzeichen) gemeinsam als Gruppe_   
+       => _80.000 - 90.000 Zeichen (mit Leerzeichen) gemeinsam als 2er Gruppe_   
     \> RL-Inhalte, UML-Diagramme, Projektplan & -ablauf, Reflexion  
 
 > * **Demonstrationsvideo**
