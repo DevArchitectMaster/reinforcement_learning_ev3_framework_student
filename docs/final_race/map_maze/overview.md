@@ -12,7 +12,6 @@
 
 > * ...   
 
-
 ### v2 (_with own building blocks_)
 > * [Example 1](v2/example_1/example_1.md)   
 
