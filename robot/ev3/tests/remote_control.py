@@ -15,6 +15,8 @@ if __name__ == '__main__':
         6: {'angle' : 270},
         7: {'angle' : 360}
     }
+
+    #logging.Logger.setLevel(level="ERROR")
     
     ev3 = Car(actions=actions_dict)
 

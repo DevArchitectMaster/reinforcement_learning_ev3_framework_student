@@ -1,3 +1,9 @@
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+
 
 import logging
 import numpy as np
@@ -17,7 +23,7 @@ if __name__ == '__main__':
 
     #ultrasonic left/west
     sensor_pos = 'west'
-    sensor = SensorUltrasonic('in1', )
+    sensor = SensorUltrasonic('in1')
     inputs.update({sensor_pos: sensor})
 
     #ultrasonic right/east

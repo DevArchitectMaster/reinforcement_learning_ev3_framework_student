@@ -1,10 +1,15 @@
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
 
 import logging
 from time import sleep
 from ev3_robot_car import SensorUltrasonic, SensorInfrared
 
 def write_to_csv(csv_file, values):
-    logf = open(csv_file,"w") # overwrite values
+    logf = open(csv_file, "w") # overwrite values
     for val in values:
         try:
             logf.write(str(val))
@@ -22,10 +27,11 @@ if __name__ == '__main__':
     logging.info('SENSOR TEST START')
 
     ##################### CREATE SENSORS #####################
+
     inputs = {}
     #ultrasonic left/west
     sensor_pos = 'west'
-    sensor = SensorUltrasonic('in1', )
+    sensor = SensorUltrasonic('in1')
     inputs.update({sensor_pos: sensor})
     #ultrasonic right/east
     sensor_pos = 'east'
